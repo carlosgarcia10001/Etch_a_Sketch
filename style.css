@@ -1,0 +1,27 @@
+#grid-container{
+    display:grid;
+    width: 800px;
+    height: 800px;
+    padding:10px;
+    margin: auto;
+}
+
+.uncolored{
+    background-color: white;
+    border: 1px solid black;
+}
+
+.colored{
+    background-color: black;
+    border: 1px solid black;
+}
+
+button{
+    position: relative;
+    left: 46.25%;
+    text-align: center;
+}
+
+.square{
+    border: 1px solid black;
+}
